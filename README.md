@@ -29,7 +29,8 @@ We use Bitbucket Pipelines to ensure all the projects follow the basic PHP stand
 that doesn't pass the "code lint" **won't** be merged in the repository. This allows us to keep the code
 clean and easy to maintain in the future.
 
-To activate the PHP linter: 
+To activate bitbucket pipelines: 
+
 1. Uncomment all the lines in the file `bitbucket-pipelines.yml`
 2. Change the `<your_theme>` name inside the script for your chosen name for the theme
 3. Go to your theme `cd wp-content/themes/<your_theme>` 
