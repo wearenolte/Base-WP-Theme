@@ -1,0 +1,29 @@
+### Ignore all Files
+*~
+/*
+### Ignore files from MAC
+.DS_Store
+### Ignore sass cache and node modules
+.sass-cache
+node_modules/
+
+### Except markdown files.
+!*.md
+### Except git ignore file
+!/.gitignore
+
+### Except composer
+!composer.json
+!composer.lock
+
+### Except BB pipelines
+!bitbucket-pipelines.yml
+
+### Except "wp-content"
+!/wp-content
+
+### Ignore everything in the "wp-content" directory
+wp-content/*
+#
+# Except themes
+!/wp-content/themes/
