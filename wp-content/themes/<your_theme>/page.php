@@ -16,7 +16,7 @@ get_header(); ?>
 
 			<?php
 			while ( have_posts() ) : the_post();
-				echo "This is default page template";
+				echo 'This is default page template';
 			endwhile;
 			?>
 

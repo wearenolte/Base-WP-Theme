@@ -3,7 +3,6 @@
  * The main template file.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
- *
  */
 get_header(); ?>
 

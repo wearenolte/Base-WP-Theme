@@ -9,7 +9,9 @@
     "wp-coding-standards/wpcs": "dev-master"
   },
   "autoload": {
-    "psr-4": {}
+    "psr-4": {
+      "Base\\": "src/"
+    }
   },
   "authors": [
     {
