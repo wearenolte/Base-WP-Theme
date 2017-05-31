@@ -8,13 +8,15 @@ It has the minimum files and folders for a WP Theme to work, without any other l
 1. Clone or download the repository
 2. Change the name of the theme `<your_theme>` in the folder `wp-content/themes/<your_theme>/`
 3. Change the information of the theme in `wp-content/themes/<your_theme>/style.css`
-4. Install the theme in your WP and activate it
-5. Happy coding! :)
-
-## Structure
+4. Install composer globally (see next point)
+5. Run `composer install` inside your theme directory
+6. Install the theme in your WP and activate it
+7. Happy coding! :)
 
 ## Composer
-In order to follow our standards, you will be able to install Composer globally. 
+In order to follow our standards, you need to install Composer globally. 
+
+Composer is a PHP package manager, just like npm for node modules. In fact, it works practically the same.
 
 ## Git Ignore
 Tip: Update .gitignore with the folders we don't need in the repo (for example, `/vendor/`, or `/node_modules/`)
@@ -34,3 +36,5 @@ To activate the PHP linter:
 [WP Template Hierarchy]: https://developer.wordpress.org/themes/basics/template-hierarchy/
 [Composer]: https://getcomposer.org/
 [Bitbucket Pipelines]: https://bitbucket.org/product/features/pipelines
+
+If you have any question, please contact Nolte Team.
