@@ -1,0 +1,9 @@
+# image: azukiapp/php-fpm
+# pipelines:
+#  default:
+#    - step:
+#        script:
+#          - cd wp-content/themes/<your_theme>/
+#          - composer self-update
+#          - composer install
+#          - composer lint
