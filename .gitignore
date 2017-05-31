@@ -3,6 +3,7 @@
 /*
 ### Ignore files from MAC
 .DS_Store
+.idea
 ### Ignore sass cache and node modules
 .sass-cache
 node_modules/
@@ -22,8 +23,5 @@ node_modules/
 ### Except "wp-content"
 !/wp-content
 
-### Ignore everything in the "wp-content" directory
-wp-content/*
-#
-# Except themes
-!/wp-content/themes/
+### Ignore plugins
+wp-content/plugins/*
