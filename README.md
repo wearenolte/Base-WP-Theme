@@ -39,6 +39,13 @@ To activate bitbucket pipelines:
 
 **Note:** If you create a new folder with PHP files inside, add that folder to the `composer.json` lint script!
 
+## Plugins that we use
+* Advanced Custom Fields PRO
+In order to make backend fields, at Nolte we use ACF pro. More documentation will be sent once the dev starts the project.
+This theme has some integration with ACF by default. If the plugin is activated, all the fields will
+be stored in a folder called `acf`. We do that, so we can import and export fields in the JSON files generated
+by the plugins, so the fields don't get lost in the database between servers.
+
 ## Useful Links
 
 [WP Template Hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
