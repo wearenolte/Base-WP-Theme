@@ -7,15 +7,12 @@ if ( file_exists( $autoload ) ) {
 }
 
 // ACF save/load fields in JSON format inside /acf folder.
-if ( class_exists( 'acf' ) ) {
-	add_filter( 'acf/settings/save_json', function() {
-		return get_template_directory() . '/acf';
-	} );
+add_filter( 'acf/settings/save_json', function() {
+  return get_template_directory() . '/acf';
+} );
 
-	add_filter( 'acf/settings/load_json', function( $paths ) {
-		unset( $paths[0] );
-		$paths[] = get_template_directory() . '/acf';
-		return $paths;
-	} );
-}
-
+add_filter( 'acf/settings/load_json', function( $paths ) {
+  unset( $paths[0] );
+  $paths[] = get_template_directory() . '/acf';
+  return $paths;
+} );
